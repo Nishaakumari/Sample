@@ -4,13 +4,20 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
+import { LoansComponent } from './loans/loans.component';
+import { LoanTypesComponent } from './loan-types/loan-types.component';
+import { RouterModule } from '@angular/router';
+
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    LoansComponent,
+    LoanTypesComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+
   ],
   providers: [],
   bootstrap: [AppComponent]
